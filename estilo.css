@@ -13,5 +13,11 @@ body{
    font-family: "Arimo", sans-serif;
    color:var(--cor-texto-principal);
    background: var(--cor-de-fundo);
-   color: var(--botão-ativo);
+   
+}
+.conteudo-principal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
