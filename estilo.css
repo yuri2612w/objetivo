@@ -13,5 +13,5 @@ body{
    font-family: "Arimo", sans-serif;
    color:var(--cor-texto-principal);
    background: var(--cor-de-fundo);
-
+   color: var(--botão-ativo);
 }
