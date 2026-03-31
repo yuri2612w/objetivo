@@ -40,5 +40,8 @@ body{
    font-size: 18px;
    align-items: center;
    width: 100%;
+  border-bottom: 4px solid var(--botão-ativo);
+  border-left: 2px solid var(--botão-ativo);
+  border-right: 2px solid var(--botão-ativo);
+  border-top: none;
 }
-
