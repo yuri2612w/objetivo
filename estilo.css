@@ -29,3 +29,16 @@ body{
    width:100%;
    font-size:32px;
 }
+.titulo-principal span{
+      color: #B4D3D9;
+}
+.botao{
+   background-color: var(--botão-desativo);
+   display: flex;
+   justify-content: center;
+   padding: 1cm;
+   font-size: 18px;
+   align-items: center;
+   width: 100%;
+}
+
