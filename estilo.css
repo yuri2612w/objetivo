@@ -32,7 +32,7 @@ body{
 .titulo-principal span{
       color: #B4D3D9;
 }
-.botao{
+.botão{
    background-color: var(--botão-desativo);
    display: flex;
    justify-content: center;
