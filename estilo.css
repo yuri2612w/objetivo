@@ -36,7 +36,7 @@ body{
    background-color: var(--botão-desativo);
    display: flex;
    justify-content: center;
-   padding: 1cm;
+   padding: 1em;
    font-size: 18px;
    align-items: center;
    width: 100%;
