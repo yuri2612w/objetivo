@@ -55,7 +55,7 @@ body{
    .botão:first-child{
       border-radius: 40px 0 0 0;
    }
-   .botão:first-child{
+   .botão:last-child{
       border-radius: 0 40px 0 0;
    }
 }
