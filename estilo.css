@@ -52,5 +52,10 @@ body{
     .botão{
       display: flex;
     }
-   
+   .botão:first-child{
+      border-radius: 40px 40px 0 0;
+   }
+   .botão:first-child{
+      border-radius: 0 0 0 0;
+   }
 }
