@@ -51,6 +51,7 @@ body{
 .botão.ativo{
    background-color: var(--botão-ativo);
    border-radius: 4px solid red;
+   
 }
 
 
