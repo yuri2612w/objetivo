@@ -53,8 +53,14 @@ body{
    border-radius: 4px solid red;
    
 }
-
-
+.aba-conteudo.ativo{
+   display: block;
+}
+.abas-texto{
+   background-color: var(--cor-de-fundo);
+   padding: 40px;
+   border-radius: 0 0 40px 40px;
+}
 
 
 
