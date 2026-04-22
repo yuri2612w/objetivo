@@ -83,7 +83,16 @@ body{
    text-align: center;
    min-width: 100px;
 }
+.contador-digito-numerico{
+   font-size: 80px;
+   margin: 0;
 
+}
+.contador-digito-texto{
+   color: var(--cor-texto-segundaria);
+   font-size: 20px;
+   margin: 0;
+}
 @media screen and (min-width:768px){
     .botoes{
       display: flex;
