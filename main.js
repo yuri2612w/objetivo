@@ -26,5 +26,22 @@ function calculaTempo(tempoObjetivo){
     let tempoAtual = new Date();
     let tempofinal = tempoObjetivo- tempoAtual
     console.log(tempofinal) 
+    let segundos = Math.floor(tempofinal / 1000)
+    let minutos = Math.floor(minutos / 60)
+    let horas = Math.floor(horaas / 60 )
+    let dias = Math.floor(dias / 24)
+      
+
+    segundos %= 60
+    minutos %=60
+    horas %=24
+    if (tempofinal >0) {
+        return [dias,horas,minutos,segundos] 
+    }else{   
+        return [0,0,0,0]
+    }
+}
+function atualizaCronometro(){
+    
 }
 calculaTempo(tempoObjetivo1)
