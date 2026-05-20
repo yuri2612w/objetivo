@@ -43,7 +43,17 @@ function calculaTempo(tempoObjetivo){
 }
 function atualizaCronometro(){
     for(let i=0; i<contadores.length;i++){
-        document.getElementById("dias0").textContent = calculaTempo(tempos[0])[0]
+        const[dias,horas,minutos,segundos] = calculaTempo(tempos[i])
+        const contador = contadores[i] 
+        const numeros = contador.querySelectorAll(".contador-digito-numerico") 
+        
+        if  (numeros.length >=0){
+            numeros[0].textContent =dias
+            numeros[1].textContent =horas
+            numeros[2].textContent =minutos
+            numeros[3].textContent =segundos    
+        }
+
     }
 }
-calculaTempo(tempoObjetivo1)
+function comecaCro
